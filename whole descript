@@ -1,0 +1,144 @@
+# Pluto Rover Project 🚀  
+**By Pluto Tech Dynamics**
+
+## 🧠 Define the Problem  
+We were required to test temperature, moisture, gas, and UV levels and collect accurate data using a rover.  
+The overall objective was to build a "Pluto Rover" that could simulate collecting environmental sample data as if we were exploring the surface of Pluto (or another planet).  
+
+---
+
+## 👥 Introduce the Design Team  
+**Team Name:** Pluto Tech Dynamics  
+
+### Projects
+- Robotic Arm (earlier in the year)
+- Pluto Rover (final project)
+
+### People
+- **William** – Engineer and PR Agent  
+- **Chrysler** – Engineer and even worse PR Agent  
+
+### Priorities
+- Land on Pluto (hypothetically)
+- Collect samples of soil, temperature, moisture, gas, and UV
+- Build a super awesome statue up there. Or down there. Somewhere.
+
+---
+
+## 🔍 Research  
+
+### Question 1: What type of movement should we use?  
+We went with **tracks** over wheels. We saw another team use them and realized they had better traction, stability, and terrain traversal. It was tricky to set up but totally worth it.
+
+### Question 2: What would be a good way to control it?  
+We looked into various controllers and found that a **Micro:Bit** was a great option. It allowed us to use its onboard buttons to move the rover forward, backward, left, and right.
+
+### Question 3: What kind of sensors can a rover use to collect samples?  
+We found that rovers can use:
+- Soil moisture sensors
+- Temperature sensors
+- Gas detectors
+- UV sensors  
+Some even use robotic arms for physical sampling. We incorporated sensors into our design to gather real-time data.
+
+### References:
+- [NASA Mars Rover Design Concepts](https://mars.nasa.gov/mars2020/spacecraft/rover/)
+- [BBC Micro:Bit Documentation](https://microbit.org/get-started/user-guide/)
+
+---
+
+## 🧰 Materials List  
+
+- Micro:Bit  
+- B.Board (breadboard)  
+- Soil moisture sensor  
+- Gas sensor  
+- UV sensor  
+- Temperature sensor  
+- DC motors + tracks  
+- Rover base platform (lifted off the ground)  
+- Wires, jumper cables, battery pack  
+
+---
+
+## 💡 Brainstormed Solutions  
+
+### Option 1: Wheels  
+**Pros:**  
+- Faster on flat surfaces  
+- Easy to build  
+- Lower power usage  
+
+**Cons:**  
+- Easier to tip over  
+- Bad on rough terrain  
+- Less traction  
+
+---
+
+### Option 2: Tracks ✅ _(Chosen)_  
+**Pros:**  
+- Better on uneven terrain  
+- More stable and reliable  
+- Harder to tip over  
+
+**Cons:**  
+- More complicated to build  
+- Tracks could fall off  
+- Higher power usage  
+
+---
+
+## ✅ Final Solution & Documentation  
+
+### 🔧 Description  
+We chose **tracks** due to their performance and theme-appropriateness (like a space rover). The tracks handled uneven surfaces better and gave our project more of a "real rover" vibe.
+
+### 📜 Assignment Criteria & How We Met Them  
+- **Sensor Input:** Used temperature, gas, UV, and soil moisture sensors  
+- **Movement:** Controlled rover with Micro:Bit buttons  
+- **Chassis Design:** Built stable base with elevated sensors and tracked wheels  
+- **Coding:** Recreated logic in MakeCode  
+- **Teamwork:** Both members contributed to hardware and programming  
+
+### 🖼 Technical Drawing  
+(See uploaded diagram in repository)
+
+### 🦺 Safety Protocols  
+- Used safety glasses during cutting and wiring  
+- Powered off circuit before handling connections  
+- Made sure nothing short-circuited by isolating wires
+
+### 🧠 Recreated MakeCode  
+The original MakeCode blocks were not saved, but we recreated the same logic from memory and uploaded the `.hex` file to the repository.
+
+---
+
+### 📸 Project Images  
+(See image files in the repository)
+
+---
+
+### 🎥 Project Demo Video  
+(See uploaded video in the repository)
+
+---
+
+## 🔁 Reflection  
+
+We ran into quite a few problems — including:
+- Rover falling apart during early testing  
+- Code not running properly  
+- Wheels and tracks falling off  
+- Difficulty turning  
+
+Despite all that, we stuck together and kept troubleshooting until it worked. With what we learned in this course, we were able to overcome the setbacks and complete our mission.  
+
+If we had more time, we would’ve:
+- Improved structural stability  
+- Made the code more modular  
+- Added real-time display or Bluetooth control  
+
+---
+
+🛰 Thanks for checking out our project!
